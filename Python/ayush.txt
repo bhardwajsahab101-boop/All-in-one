@@ -1,5 +1,0 @@
-
-            Ayush is a boy.
-            He loves coding.
-            He is learning Python.
-            he is 18 years old.

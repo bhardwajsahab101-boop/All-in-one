@@ -1,8 +1,8 @@
+
 // a ={
 //     name1 : "ayush",
 //     age : 17,
 //     class : "AIFT"
-
 // }
 // console.log(a)
 // // modifing value of the object
@@ -19,7 +19,7 @@
 // console.log(asdf)
 
 // let age = 17
-// let persion ={
+// let persion ={ 
 //     name:"ayush",
 //     age : age
 // }
@@ -72,3 +72,17 @@
 
 // fruits.splice(0, 1);          // Removes the element at index 0 ("apple")
 // console.log(fruits);          // Output: ["kiwi", "banana"]
+
+// let marks =  prompt("whar is your marks : ")
+// let cases ;
+// switch (cases) {
+//     case(marks>50):
+//         document.write("you are pass")
+//         break;
+
+//     default:
+//         break;
+// }
+
+// if 5 > 6? 
+  
