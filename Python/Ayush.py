@@ -10,7 +10,7 @@
 # ayush.close()
 
 
-print("Ayush Sharma")
+
 
 
 
@@ -179,39 +179,39 @@ print("Ayush Sharma")
 
 """__________________________________________________________________________________________________________________"""
 
-class house:
-    def __init__(self,bill,length, breadth,electric_units,house_price):
-        self.bill = bill
-        self.length = length
-        self.breadth = breadth
-        self.electric_units = electric_units
-        self.house_price = house_price
-    def area(self,area):
-        area = self.length * self.breadth
-        return area
-    def house_price(self,house_price):
-        house_price = 10000 * self.area(0)
-        return house_price
-    def total_bill(self,total_bill):
-        total_bill = self.bill + (self.electric_units * 7)
-        return total_bill
-house_obj = house(5000, 50, 40, 150)
-house_obj2 = house(6000, 60, 50, 200)
-print(f"Area of house is : {house_obj.area(0)} sq ft")
-print(f"Total bill of house is : {house_obj.total_bill(0)} rs")
+# class house:
+#     def __init__(self,bill,length, breadth,electric_units,house_price):
+#         self.bill = bill
+#         self.length = length
+#         self.breadth = breadth
+#         self.electric_units = electric_units
+#         self.house_price = house_price
+#     def area(self,area):
+#         area = self.length * self.breadth
+#         return area
+#     def house_price(self,house_price):
+#         house_price = 10000 * self.area(0)
+#         return house_price
+#     def total_bill(self,total_bill):
+#         total_bill = self.bill + (self.electric_units * 7)
+#         return total_bill
+# house_obj = house(5000, 50, 40, 150)
+# house_obj2 = house(6000, 60, 50, 200)
+# print(f"Area of house is : {house_obj.area(0)} sq ft")
+# print(f"Total bill of house is : {house_obj.total_bill(0)} rs")
 
-print(f"Area of house is : {house_obj2.area(0)} sq ft")
+# print(f"Area of house is : {house_obj2.area(0)} sq ft")
 
-ayush = open("new_file.py" ,  "x")
-ayush.write("""print("This is a new python file created by Ayush")
-                a = int(input())
-                b = int(input())
-                summ = a + b
-                print(f"the sum is : {summ}")
+# ayush = open("new_file.py" ,  "x")
+# ayush.write("""print("This is a new python file created by Ayush")
+#                 a = int(input())
+#                 b = int(input())
+#                 summ = a + b
+#                 print(f"the sum is : {summ}")
 
             
-                """)
-ayush.close()
+#                 """)
+# ayush.close()
  
 
 
@@ -237,4 +237,14 @@ ayush.close()
 # object1 = classes("Ayush",18)
 
 # print(object1.name)
+
+
+
+# class ayush:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+# ayush_object = ayush("Ayush",123)
+# print(ayush_object.name)
 

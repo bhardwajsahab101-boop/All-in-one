@@ -86,3 +86,41 @@
 
 // if 5 > 6? 
   
+// class Ayush {
+//     constructor(name,age) {
+//         this.name = name
+//         this.age = age
+//     }
+// }
+// const person = new Ayush("ayush",18)
+// console.log(person)
+
+
+
+
+/* making set in javascript */
+
+
+// const numbers = new Set();
+// numbers.add(7);
+// numbers.add(8);
+// numbers.add(9);
+// numbers.add(10);
+
+// console.log(numbers)
+
+
+
+/* converting a array into a set  */
+
+// let arr = [1,45,77,1,2,3,4,1]
+// const number = new Set(arr)
+// console.log(number)
+
+
+
+var as = (a,b) => a+b
+
+console.log(as(3,5))
+
+module.exports = {as};
